@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POO - Typescript - Forms</title>
+
+   
+</head>
+<body>
+    
+    <!-- FRM Agregar -->
+    <h3>Agregar</h3>
+    <form action="./php/nexo_poo.php" method="post" id="frm-agregar" name="frm-agregar">
+
+        Nombre: <br>
+        <input type="text" id="nombre" name="nombre"> <br>
+
+        Apellido: <br>
+        <input type="text" id="apellido" name="apellido"> <br>
+
+        Legajo: <br>
+        <input type="number" id="legajo" name="legajo" > <br>
+
+        <input type="hidden" id="accion" name="accion" value="agregar"><br>
+        
+        <input type="submit" value="Crear"/> 
+
+    </form>
+
+    <br><hr><br>
+    
+    <!-- FRM Eliminar -->
+    <h3>Eliminar</h3>
+    <form action="./php/nexo_poo.php" method="post" id="frm-eliminar" name="frm-eliminar">
+
+        Legajo: <br>
+        <input type="number" id="legajo" name="legajo" > <br>
+
+        <input type="hidden" id="accion" name="accion" value="eliminar"><br>
+        
+        <input type="submit" value="Eliminar"/> 
+
+    </form>
+
+    <br><hr><br>
+
+    <!-- FRM Listar -->
+    <h3>Listar</h3>
+    <form action="./php/nexo_poo.php" method="get" id="frm-listar" name="frm-listar">
+
+        <input type="hidden" id="accion" name="accion" value="listar">
+        
+        <input type="submit" value="Listar"/> 
+
+    </form>
+
+    <br><hr><br>
+
+    <!-- FRM Modificar -->
+    <h3>Modificar</h3>
+    <form action="./php/nexo_poo.php" method="post" id="frm-modificar" name="frm-modificar">
+
+        Legajo: <br>
+        <input type="number" id="legajo" name="legajo" > <br>
+
+        Nombre: <br>
+        <input type="text" id="nombre" name="nombre"> <br>
+
+        Apellido: <br>
+        <input type="text" id="apellido" name="apellido"> <br>
+
+        <input type="hidden" id="accion" name="accion" value="modificar"><br>
+        
+        <input type="submit" value="Modificar"/> 
+
+    </form>
+
+    <br><hr><br>
+
+    <!-- FRM Verificar -->
+    <h3>Verificar</h3>
+    <form action="./php/nexo_poo.php" method="get" id="frm-verificar" name="frm-verificar">
+
+        <input type="text" name="legajo" id="legajo"> <br>
+        <input type="hidden" id="accion" name="accion" value="verificar"> <br>
+        <input type="submit" value="Verificar"/> 
+
+    </form>
+
+</body>
+</html>

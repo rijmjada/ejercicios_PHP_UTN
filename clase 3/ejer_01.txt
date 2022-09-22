@@ -1,0 +1,11 @@
+Enviar (por POST) a la página nexo.php:
+*-accion => 'agregar'
+*-nombre => 'su nombre'
+*-apellido => 'su apellido'
+*-legajo => 'su legajo'
+
+Recuperar los valores enviados y agregarlos al archivo ./archivos/alumnos.txt
+El formato que deberá tener cada registro es el siguiente:
+legajo - apellido - nombre
+
+Indicar si se pudo o no guardar al alumno

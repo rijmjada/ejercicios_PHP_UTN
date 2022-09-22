@@ -1,0 +1,35 @@
+archivo-> persona.ts
+
+Namespace Prueba
+
+Clase Persona 
+atributos protected:
+apellido:string; 
+nombre:string; 
+
+propiedades públicas (l/e)
+
+constructor (2 parámetros)
+
+método de instancia
+ToString():string
+
+----------------------------------------------------
+
+archivo-> alumno.ts
+
+Namespace Prueba
+
+Clase Alumno extends Persona
+atributos protected:
+legajo:number
+
+propiedad pública (l/e)
+
+constructor (3 parámetros)
+
+método de instancia (polimorfismo)
+ToString():string
+
+
+

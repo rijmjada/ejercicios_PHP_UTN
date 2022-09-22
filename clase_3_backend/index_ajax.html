@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./ajax_manejador.js"></script>
+  </head>
+  <body>
+    <h3>CRUD ALUMNO</h3>
+    Apellido<br />
+    <input type="text" id="apellido" name="apellido" /><br />
+    Nombre<br />
+    <input type="text" id="nombre" name="nombre" /><br />
+    Legajo<br />
+    <input type="number" id="legajo" name="legajo" /><br />
+
+    Acción<br />
+    <select id="cboAccion" name="accion">
+      <option value="agregar">Agregar</option>
+      <option value="listar">Listar</option>
+      <option value="verificar">Verificar</option>
+      <option value="modificar">Modificar</option>
+      <option value="borrar">Borrar</option>
+    </select>
+    <br />
+    <br />
+    <input type="submit" value="Enviar" id="btnEnviar" />
+    <br><br><br>
+    <div class="ejercicios_ajax">
+      <input type="button" value="Listar" onclick="Listar()" />
+
+      <input type="button" value="Verificar" onclick="Verificar()" />
+
+      <input type="button" value="Agregar" onclick="Agregar()" />
+
+      <input type="button" value="Modificar" onclick="Modificar()" />
+
+      <input type="button" value="Eliminar" onclick="Eliminar()" />
+    </div>
+
+    <div id="rta_ajax"></div>
+  </body>
+</html>

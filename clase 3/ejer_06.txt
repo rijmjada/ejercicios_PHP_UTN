@@ -1,0 +1,6 @@
+Tomando como punto de partida los ejercicios anteriores, se pide:
+Crear la clase Alumno (en un namespace nombrado con su apellido) con los atributos 
+y métodos necesarios para realizar el CRUD sobre el archivo ./archivos/alumnos.txt
+
+Las peticiones realizarlas sobre la página nexo_poo.php
+

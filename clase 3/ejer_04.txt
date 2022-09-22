@@ -1,0 +1,14 @@
+Enviar (por POST) a la página nexo.php:
+*-accion => 'modificar'
+*-nombre => 'un nombre'
+*-apellido => 'un apellido'
+*-legajo => 'un legajo'
+
+Recuperar los valores enviados y buscar en el archivo ./archivos/alumnos.txt la existencia de un registro que coincida con el legajo recuperado.
+Si se encuentra, reemplazar el apellido y el nombre del archivo, por los valores recuperados por POST.
+Mostrar un mensaje que diga:
+'El alumno con legajo 'xxx' se ha modificado'
+Si no se encuentra, mostrar el siguiente mensaje:
+'El alumno con legajo 'xxx' no se encuentra en el listado'
+Siendo 'xxx' el valor del legajo enviado por POST.
+

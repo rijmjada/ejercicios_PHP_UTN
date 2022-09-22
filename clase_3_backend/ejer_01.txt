@@ -1,0 +1,12 @@
+PARTE 1:
+Tomando como punto de partida los ejercicios anteriores (clase03), se pide:
+Agregar a la clase Alumno el atributo 'foto' (string) y modificar los métodos necesarios para realizar 
+el CRUD sobre el archivo ./archivos/alumnos_foto.txt, que ahora tendrá el siguiente formato:
+
+legajo - apellido - nombre - foto (el path)
+
+La foto guardarla en ./fotos y su nombre será:
+*- legajo.extension
+
+PARTE 2:
+Probar que el CRUD funcione correctamente en nexo_poo_foto.php

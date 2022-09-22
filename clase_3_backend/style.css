@@ -1,0 +1,15 @@
+
+.ejercicios_ajax input
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 49, 194);
+    border-color: rgb(81, 118, 230);
+    border-radius: 10%;
+}
+
+#rta_ajax
+{
+    color:orangered;
+    margin: 1% 1%;
+   
+}
